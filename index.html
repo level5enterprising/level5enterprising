@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Level 5 Enterprising: Philadelphia construction, remedial restoration, concrete, masonry, hardscape, and dumpster rentals. Engineering expertise with reliable full-service solutions.">
+  <title>Level 5 Enterprising | Construction • Restoration • Hardscape • Waste</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-zinc-950 text-white">
+  <!-- Navbar with Logo -->
+  <nav class="fixed top-0 w-full bg-zinc-950/90 backdrop-blur border-b border-zinc-800 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="flex items-center">
+        <img src="logo.png" alt="Level 5 Enterprising" class="h-14 w-auto">
+      </a>
+      
+      <div class="space-x-8 text-sm hidden md:flex">
+        <a href="#services" class="hover:text-emerald-400">Services</a>
+        <a href="#about" class="hover:text-emerald-400">About</a>
+        <a href="#contact" class="hover:text-emerald-400">Contact</a>
+      </div>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" 
+              class="bg-emerald-600 hover:bg-emerald-500 px-6 py-3 rounded-2xl text-sm font-medium">Get Quote</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen bg-[url('https://picsum.photos/id/1015/2000/1200')] bg-cover flex items-center relative">
+    <div class="absolute inset-0 bg-black/70"></div>
+    <div class="max-w-5xl mx-auto px-6 relative z-10 text-center pt-20">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6">Level <span class="text-emerald-500">5</span> Enterprising</h1>
+      <p class="text-2xl md:text-3xl mb-4">Philadelphia's Full-Service Construction Company</p>
+      <p class="max-w-2xl mx-auto text-lg mb-10">New Construction • Remedial Restoration • Concrete & Masonry • Hardscape • Dumpster Rentals</p>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" 
+              class="bg-white text-black px-10 py-4 rounded-2xl font-semibold text-lg hover:bg-zinc-200">Start Your Project</button>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-24 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Our Services</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-zinc-800 p-8 rounded-3xl hover:border-emerald-500 border border-transparent transition">
+          <i class="fas fa-hard-hat text-5xl text-emerald-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">New Construction</h3>
+          <p class="text-zinc-400">Commercial and residential new builds with engineering precision.</p>
+        </div>
+        <div class="bg-zinc-800 p-8 rounded-3xl hover:border-emerald-500 border border-transparent transition">
+          <i class="fas fa-tools text-5xl text-emerald-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Remedial Restoration</h3>
+          <p class="text-zinc-400">Repairing and restoring existing structures to like-new condition.</p>
+        </div>
+        <div class="bg-zinc-800 p-8 rounded-3xl hover:border-emerald-500 border border-transparent transition">
+          <i class="fas fa-cubes text-5xl text-emerald-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Concrete & Masonry</h3>
+          <p class="text-zinc-400">All aspects of concrete work, masonry, plasterwork, foundations, and structural elements.</p>
+        </div>
+        <div class="bg-zinc-800 p-8 rounded-3xl hover:border-emerald-500 border border-transparent transition">
+          <i class="fas fa-road text-5xl text-emerald-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Hardscape & Exterior</h3>
+          <p class="text-zinc-400">Driveways, patios, sidewalks, steps, additions, retaining walls, and full hardscape installations.</p>
+        </div>
+        <div class="bg-zinc-800 p-8 rounded-3xl hover:border-emerald-500 border border-transparent transition">
+          <i class="fas fa-dumpster text-5xl text-emerald-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Dumpster Rentals & Hauling</h3>
+          <p class="text-zinc-400">Reliable waste solutions with our Switch-N-Go Isuzu system.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-8">About Level 5 Enterprising</h2>
+      <p class="text-lg text-zinc-300">Engineering-backed construction company in Philadelphia offering new construction, remedial restoration, complete concrete & masonry services, hardscape installations, and dumpster rentals. We activate our full shop and equipment to deliver high-quality, reliable results for residential and commercial clients.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-emerald-950">
+    <div class="max-w-2xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-10">Get In Touch</h2>
+      <form class="space-y-6">
+        <input type="text" placeholder="Name" class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4">
+        <input type="email" placeholder="Email" class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4">
+        <input type="tel" placeholder="Phone" class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4">
+        <textarea placeholder="Tell us about your project..." rows="5" class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4"></textarea>
+        <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-500 py-4 rounded-2xl font-semibold">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-black py-12 text-center text-zinc-500 text-sm">
+    <p>© 2026 Level 5 Enterprising • Philadelphia, PA • All Rights Reserved</p>
+  </footer>
+</body>
+</html>
